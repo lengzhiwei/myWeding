@@ -1,5 +1,5 @@
 # mywending
-
+## 前端开发使用vue,UI框架使用了Vux,后端框架使用nodejs,框架使用espress,数据库使用mongodb
 ## Project setup
 ```
 npm install
