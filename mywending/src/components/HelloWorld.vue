@@ -1,7 +1,9 @@
 <template>
   <div class="hello">
-    <h1>{{ msg }}</h1>
-    <XButton>ads</XButton>
+    <video src="movie.ogg" controls="controls">
+    您的浏览器不支持 video 标签。
+    </video>
+    <router-link :to='{path:"/welcome"}'> asdasds </router-link> 
   </div>
 </template>
 
@@ -12,28 +14,9 @@ export default {
   components:{
 	XButton
   },
-  
-  
   props: {
     msg: String
   }
 }
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
-h3 {
-  margin: 40px 0 0;
-}
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
-a {
-  color: #42b983;
-}
-</style>
